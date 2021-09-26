@@ -27,3 +27,15 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+  text-align: center;
+  font-size: 50px;
+  width: 8.33%;
+  
+}
